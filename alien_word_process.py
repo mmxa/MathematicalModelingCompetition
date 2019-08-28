@@ -1,3 +1,9 @@
+"""
+    author: MengXiangzhe
+    date: 2019./03/21
+    description: a similar string lookup program for 
+    mathematical modeling competiton in RenZheng CUP 2019.
+"""
 import string
 import copy
 import time
@@ -78,9 +84,9 @@ def main():
     for k in result_fun:
         print("word: ", k, " times: ", result_fun[k].times," position: ", result_fun[k].index)
     print('Running time: %s Seconds' % (time.time() - start))
-    #if Excel_Generation is True:
-        #Generate_Excel(result_search, 'words_frequency99')
-        #Generate_Excel(result_fun, 'cost_of_words10086')
+    """Excel_Generation is True:
+        Generate_Excel(result_search, 'words_frequency99')
+        Generate_Excel(result_fun, 'cost_of_words10086')"""
     total = 0
     rows = 0
     cost_data = []
